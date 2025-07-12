@@ -1,0 +1,59 @@
+.user-card-wrapper {
+  position: relative;
+  border-radius: 10px;
+  overflow: hidden;
+  transition: all 0.3s ease;
+}
+
+.user-card {
+  text-align: center;
+  padding: 24px 16px;
+  transition: filter 0.3s ease;
+    background-color: #f6f4f4;
+}
+
+.user-avatar {
+  margin-bottom: 16px;
+}
+
+.user-name,
+.user-email {
+  margin: 0;
+  color: #000;
+  transition: color 0.3s ease;
+}
+
+.user-card-wrapper.hovered .user-name,
+.user-card-wrapper.hovered .user-email {
+  color: #888; /* greyed out on hover */
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(128, 128, 128, 0.5); /* semi-transparent grey */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+}
+
+.action-buttons {
+  display: flex;
+  gap: 12px;
+}
+
+.edit-btn {
+  background-color: #a07eff;
+  color: white;
+  border: none;
+}
+
+.delete-btn {
+  background-color: red;
+  color: white;
+  border: none;
+}
