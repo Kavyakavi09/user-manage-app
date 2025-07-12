@@ -22,6 +22,6 @@ You will also see any lint errors in the console.
 
     # My Awesome Project
     
-     You can view the live site [here]([https://<your-username>.github.io/<your-project-name>](https://user-manage-sys.netlify.app/)).
+     You can view the live site [here](https://user-manage-sys.netlify.app/).
 
 
