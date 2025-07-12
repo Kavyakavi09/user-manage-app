@@ -20,8 +20,7 @@ You will also see any lint errors in the console.
 
 <img width="1850" height="843" alt="image" src="https://github.com/user-attachments/assets/fc72ecb6-06c7-4534-8c33-f37d4fb5d68e" />
 
-    # My Awesome Project
-    
-     You can view the live site [here](https://user-manage-sys.netlify.app/).
+You can view the live site [here](https://user-manage-sys.netlify.app/).
+
 
 
